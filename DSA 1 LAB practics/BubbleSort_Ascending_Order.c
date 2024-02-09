@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
-int arr[] ={20,2,-50,1,9};
-int i,j,size=5;
+int arr[] ={4,5,6,5,3,6,7,8,4,5,5};
+int i,j,size=10;
 int counter =0;
 for(int i=0;i<4;i++)
 	{
@@ -12,7 +12,7 @@ for ( i = 0; i < size-1; i++)
     for (j=0; j<size-1-i; j++)
     {
          counter++;
-        if(arr[j]>arr[j+1]){
+        if(arr[j]<arr[j+1]){
             int temp = arr[j];
             arr[j]=arr[j+1];
             arr[j+1]= temp;

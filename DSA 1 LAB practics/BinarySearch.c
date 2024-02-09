@@ -2,8 +2,8 @@
 int main()
 {
     int a[]={1,3,4,6,7,89,99};
-    int item =190;
-
+    int item =7;
+ 
     int low, high, middle;
     low=0;
     high=6;
