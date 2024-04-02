@@ -1,10 +1,10 @@
 #include<stdio.h>
 int main()
 {
-    int a[]={32,5,80,123, 1, 9, 45};
+    int a[]={5,2,4,6,1,3};
     int i,j, min_index;
      //outer loop to iterate over all the number
-    for(i=0; i<7;i++){
+    for(i=0; i<6;i++){
         min_index =i;
         //inner loop to find the minimum intex
     for ( j = i+1; j < 7; j++)
